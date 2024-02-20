@@ -1,203 +1,312 @@
 {
-"planets": [
-  {
-    "planetOrder": 1,
-    "name": "Mercury",
-    "description": "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets.",
-    "basicDetails": {
-      "volume": "6.083 x 10^10 km^3",
-      "mass": "3.3011 x 10^23 kg"
+  "planets": [
+    {
+      "planetOrder": 1,
+      "name": "Mercury",
+      "description": "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets.",
+      "basicDetails": {
+        "volume": "6.083 x 10^10 km^3",
+        "mass": "3.3011 x 10^23 kg"
+      },
+      "source": "Wikipedia",
+      "wikiLink": "https://en.wikipedia.org/wiki/Mercury_(planet)",
+      "imgSrc": {
+        "img": "https://i.ibb.co/zxj7511/Mercury-in-true-color.png",
+        "imgDescription": "Mercury in true color (by MESSENGER in 2008)"
+      },
+      "id": 1,
+      "averageTemperature": "-180 to 430 °C",
+      "dayLength": "59 Earth days",
+      "yearLength": "87.97 Earth days",
+      "moons": "0",
+      "funFacts": {
+        "funFactsOne": "If we were to stand on Mercury, the Sun would look three times as large as we see it on Earth. It is seven times brighter too!",
+        "funFactsTwo": "While it takes about eight minutes for sunlight to travel to Earth, it reaches Mercury in about three minutes."
+      }
     },
-    "source": "Wikipedia",
-    "wikiLink": "https://en.wikipedia.org/wiki/Mercury_(planet)",
-    "imgSrc": {
-      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg",
-      "imgDescription": "Mercury in true color (by MESSENGER in 2008)"
+    {
+      "planetOrder": 2,
+      "name": "Venus",
+      "description": "Venus is the second planet from the Sun and is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be visible to the naked eye in broad daylight.",
+      "basicDetails": {
+        "volume": "9.2843 x 10^11 km^3",
+        "mass": "4.8675 x 10^24 kg"
+      },
+      "source": "Wikipedia",
+      "wikiLink": "https://en.wikipedia.org/wiki/Venus",
+      "imgSrc": {
+        "img": "https://i.ibb.co/3sfkDSL/Venus-from-Mariner-10.png",
+        "imgDescription": "False colour composite of Venus in visual and ultraviolet wavelengths (from Mariner 10). The surface is completely obscured by clouds."
+      },
+      "id": 2,
+      "averageTemperature": "438 to 482°C",
+      "dayLength": "243 Earth days",
+      "yearLength": "225 Earth days",
+      "moons": "0",
+      "funFacts": {
+        "funFactsOne": "Among all planets, Venus is the only one named after a female god. Its surface features are also named after women, both real and mythical.",
+        "funFactsTwo": "Venus rotates on its axis very slowly. It is so slow that a day that there is longer than a year!"
+      }
     },
-    "id": 1,
-    "averageTemperature": "-180 to 430 °C",
-    "dayLength": "59 Earth days",
-    "yearLength": "87.97 Earth days",
-    "moons": "0",
-    "funFacts": {
-      "funFactsOne": "If we were to stand on Mercury, the Sun would look three times as large as we see it on Earth. It is seven times brighter too!",
-      "funFactsTwo": "While it takes about eight minutes for sunlight to travel to Earth, it reaches Mercury in about three minutes."
+    {
+      "planetOrder": 3,
+      "name": "Earth",
+      "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. While large amounts of water can be found throughout the Solar System, only Earth sustains liquid surface water. About 71% of Earth's surface is made up of the ocean, dwarfing Earth's polar ice, lakes, and rivers.",
+      "basicDetails": {
+        "volume": "1.08321 x 1012 km3",
+        "mass": "5.972 × 10^24 kg"
+      },
+      "source": "Wikipedia",
+      "wikiLink": "https://en.wikipedia.org/wiki/Earth",
+      "imgSrc": {
+        "img": "https://i.ibb.co/n8kNvtn/The-Blue-Marble-remastered.png",
+        "imgDescription": "A photograph of Earth taken by the crew of Apollo 17 in 1972. A processed version became widely known as The Blue Marble."
+      },
+      "id": 3,
+      "averageTemperature": "14°C",
+      "dayLength": "23.9 hours",
+      "yearLength": "365.25 days",
+      "moons": "1",
+      "funFacts": {
+        "funFactsOne": "The name “Earth” has a Germanic origin which means “the ground.” Of all the eight planets, it is the only one that was not named after any gods or goddesses.",
+        "funFactsTwo": "The Earth's crust is divided into different tectonic plates. These plates cause earthquakes, they also give rise to volcanoes and rift valleys. Most of all, the tectonic plates are important to the carbon cycle of our planet."
+      }
+    },
+    {
+      "planetOrder": 4,
+      "name": "Mars",
+      "description": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often called the \\\"Red Planet\\\".\"",
+      "basicDetails": {
+        "volume": "1.63118 x 10^11 km^3",
+        "mass": "6.4171 x 10^23 kg"
+      },
+      "source": "Wikipedia",
+      "wikiLink": "https://en.wikipedia.org/wiki/Mars",
+      "imgSrc": {
+        "img": "https://i.ibb.co/pK6h7sP/OSIRIS-Mars-true-color.png",
+        "imgDescription": "Pictured in natural color in 2007"
+      },
+      "id": 4,
+      "averageTemperature": "-153 to 20 °C",
+      "dayLength": "24.6 Earth days",
+      "yearLength": "687 Earth days",
+      "moons": "2",
+      "funFacts": {
+        "funFactsOne": "Phobos is predicted to crash into Mars around 50 million years from now. The potato-shaped moon will shatter, which will likely create a ring around the planet.",
+        "funFactsTwo": "The sky on Mars looks reddish during the day and turns blue during sunsets. The total opposite of what our sky looks like here on Earth!"
+      }
+    },
+    {
+      "planetOrder": 5,
+      "name": "Jupiter",
+      "description": "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun.",
+      "basicDetails": {
+        "volume": "1.4313 x 10^15 km^3",
+        "mass": "1.8982 x 10^27 kg"
+      },
+      "source": "Wikipedia",
+      "wikiLink": "https://en.wikipedia.org/wiki/Jupiter",
+      "imgSrc": {
+        "img": "https://i.ibb.co/Y3rjdSk/Jupiter-and-its-shrunken-Great-Red-Spot.png",
+        "imgDescription": "Full disk view in natural colour, taken by the Hubble Space Telescope in April 2014"
+      },
+      "id": 5,
+      "averageTemperature": "-108 °C",
+      "dayLength": "9.93 Earth hours",
+      "yearLength": "11.86 Earth years",
+      "moons": "79",
+      "funFacts": {
+        "funFactsOne": "The Great Red Spot is a very large storm that could fit two to three Earths. It was first observed in 1665 by astronomer Giovanni Cassini. Though it might disappear in the next hundred years, a new one will likely replace it.",
+        "funFactsTwo": "Auroras on Jupiter are the brightest in the solar system. They are much more intense than the light shows we have on Earth. Other than solar storms, auroras on Jupiter are also caused by its moon Io."
+      }
+    },
+    {
+      "planetOrder": 6,
+      "name": "Saturn",
+      "description": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It has only one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive.",
+      "basicDetails": {
+        "volume": "8.2713 x 10^14 km^3",
+        "mass": "8.2713 x 10^14 km^3"
+      },
+      "source": "Wikipedia",
+      "wikiLink": "https://en.wikipedia.org/wiki/Saturn",
+      "imgSrc": {
+        "img": "https://i.ibb.co/pnvqbwX/Saturn-with-auroras-removebg-preview.png",
+        "imgDescription": "Pictured in natural color approaching equinox, photographed by Cassini in July 2008; the dot in the bottom left corner is Titan."
+      },
+      "id": 6,
+      "averageTemperature": "-138 °C",
+      "dayLength": "10.7 Earth hours",
+      "yearLength": "29 Earth years",
+      "moons": "82",
+      "funFacts": {
+        "funFactsOne": "Much of what we know now about the Saturni was because of the Cassini mission. In its grand finale in 2017, the spacecraft deliberately crashed into Saturn. It was done to make sure that the potentially habitable moons are unharmed.",
+        "funFactsTwo": "Aside from the main rings around the planet, the Saturnian system has another set of rings. In 2009, a sparse but very large ring was discovered around the irregular moon, Phoebe. It is said to be much larger than Saturn and its main rings!"
+      }
+    },
+    {
+      "planetOrder": 7,
+      "name": "Uranus",
+      "description": "Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus, who, according to Greek mythology, was the great-grandfather of Ares, grandfather of Zeus and father of Cronus. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.",
+      "basicDetails": {
+        "volume": "6.833 x 1013 km^3",
+        "mass": "8.681 × 10^25 kg"
+      },
+      "source": "Wikipedia",
+      "wikiLink": "https://en.wikipedia.org/wiki/Uranus",
+      "imgSrc": {
+        "img": "https://i.ibb.co/LZHc0p3/Uranus-as-seen-by-NASA-s-Voyager-2-remastered.png",
+        "imgDescription": "Photograph of Uranus in true colour (by Voyager 2 in 1986)"
+      },
+      "id": 7,
+      "averageTemperature": "-195 °C",
+      "dayLength": "17 Earth hours",
+      "yearLength": "84 Earth years",
+      "moons": "27",
+      "funFacts": {
+        "funFactsOne": "Uranus is colder than Neptune in some areas, particularly in the atmosphere. With a minimum temperature of -224°C (-321°F), it has the coldest planetary atmosphere in the solar system.",
+        "funFactsTwo": "The moons of Uranus are named after literary characters. Specifically, they are inspired by the works of William Shakespeare and Alexander Pope. Its largest moon, Titania, got its name from Shakespeare’s A Midsummer Night’s Dream."
+      }
+    },
+    {
+      "planetOrder": 8,
+      "name": "Neptune",
+      "description": "Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, and slightly more massive than its near-twin Uranus.",
+      "basicDetails": {
+        "volume": "6.253 x 1013 km^3",
+        "mass": "1.02413 x 1026 kg"
+      },
+      "source": "Wikipedia",
+      "wikiLink": "https://en.wikipedia.org/wiki/Neptune",
+      "imgSrc": {
+        "img": "https://i.ibb.co/4j8ynhX/Neptune-Voyager-2-29347980845-flatten-crop.png",
+        "imgDescription": "Photograph taken by NASA's Voyager 2 in 1989"
+      },
+      "id": 8,
+      "averageTemperature": "-201 °C",
+      "dayLength": "16 Earth hours",
+      "yearLength": "165 Earth years",
+      "moons": "14",
+      "funFacts": {
+        "funFactsOne": "Neptune follows a very elongated orbit. It is so elongated that sometimes it becomes farther than Pluto.",
+        "funFactsTwo": "Neptune’s tilt on its axis of rotation is 28 degrees, which is closely similar to the Earth’s. This will give the planet a change in seasons like us. But since a year on Neptune is 165 Earth years long, it will take about 40 years for the seasons to change!"
+      }
+    },
+    {
+      "name": "Pluto",
+      "description": "Pluto is a dwarf planet in the Kuiper belt, a ring of bodies beyond the orbit of Neptune. It is the ninth-largest and tenth-most-massive known object to directly orbit the Sun. It is the largest known trans-Neptunian object by volume, by a small margin, but is less massive than Eris. Like other Kuiper belt objects, Pluto is made primarily of ice and rock and is much smaller than the inner planets. Pluto has only one sixth the mass of Earth's moon, and one third its volume.",
+      "wikiLink": "https://en.wikipedia.org/wiki/Pluto",
+      "imgSrc": {
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/1024px-Pluto_in_True_Color_-_High-Res.jpg"
+      },
+      "moons": "5",
+      "funFacts": {
+        "funFactsOne": " An 11-year-old girl gave Pluto its name",
+        "funFactsTwo": "Pluto is smaller than Earth’s moon but larger than previously thought"
+      },
+      "dayLength": " 6.387 Earth days.",
+      "yearLength": "248 Earth years",
+      "averageTemperature": "-240.15 ºC to -218.15 ºC",
+      "basicDetails": {
+        "mass": "(1.303±0.003)×1022 kg 0.00218 Earths 0.177 Moons",
+        "volume": "(7.057±0.004)×109 km3"
+      },
+      "id": 9
     }
-  },
-
-  {
-    "planetOrder": 2,
-    "name": "Venus",
-    "description": "Venus is the second planet from the Sun and is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be visible to the naked eye in broad daylight.",
-    "basicDetails": {
-      "volume": "9.2843 x 10^11 km^3",
-      "mass": "4.8675 x 10^24 kg"
+  ],
+  "space-quotes":
+  [ 
+    { "quote": "Anyone who sits on top of the largest hydrogen-oxygen fueled system in the world, knowing they’re going to light the bottom, and doesn’t get a little worried, does not fully understand the situation.",
+     "author": "John Young"
     },
-    "source": "Wikipedia",
-    "wikiLink": "https://en.wikipedia.org/wiki/Venus",
-    "imgSrc": {
-      "img": "https://upload.wikimedia.org/wikipedia/commons/0/08/Venus_from_Mariner_10.jpg",
-      "imgDescription": "False colour composite of Venus in visual and ultraviolet wavelengths (from Mariner 10). The surface is completely obscured by clouds."
+    { "quote": "That’s one small step for a man, one giant leap for mankind.",
+      "author": "Neil Armstrong"
     },
-    "id": 2,
-    "averageTemperature": "438 to 482°C",
-    "dayLength": "243 Earth days",
-    "yearLength": "225 Earth days",
-    "moons": "0",
-    "funFacts": {
-      "funFactsOne": "Among all planets, Venus is the only one named after a female god. Its surface features are also named after women, both real and mythical.",
-      "funFactsTwo": "Venus rotates on its axis very slowly. It is so slow that a day that there is longer than a year!"
-    }
-  },
-
-  {
-    "planetOrder": 3,
-    "name": "Earth",
-    "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. While large amounts of water can be found throughout the Solar System, only Earth sustains liquid surface water. About 71% of Earth's surface is made up of the ocean, dwarfing Earth's polar ice, lakes, and rivers.",
-    "basicDetails": {
-      "volume": "1.08321 x 1012 km3",
-      "mass": "5.972 × 10^24 kg"
+    { "quote": "From out there on the moon, international politics look so petty.",
+     "author": "Edgar Mitchell"
     },
-    "source": "Wikipedia",
-    "wikiLink": "https://en.wikipedia.org/wiki/Earth",
-    "imgSrc": {
-      "img": "https://upload.wikimedia.org/wikipedia/commons/c/cb/The_Blue_Marble_%28remastered%29.jpg",
-      "imgDescription": "A photograph of Earth taken by the crew of Apollo 17 in 1972. A processed version became widely known as The Blue Marble."
+    { "quote": "I don’t know what you can say about a day when you have seen four beautiful sunsets…. This is a little unusual, I think.",
+     "author": "John Glenn"
     },
-    "id": 3,
-    "averageTemperature": "14°C",
-    "dayLength": "23.9 hours",
-    "yearLength": "365.25 days",
-    "moons": "1",
-    "funFacts": {
-      "funFactsOne": "The name “Earth” has a Germanic origin which means “the ground.” Of all the eight planets, it is the only one that was not named after any gods or goddesses.",
-      "funFactsTwo": "The Earth's crust is divided into different tectonic plates. These plates cause earthquakes, they also give rise to volcanoes and rift valleys. Most of all, the tectonic plates are important to the carbon cycle of our planet."
-    }
-  },
-
-  {
-    "planetOrder": 4,
-    "name": "Mars",
-    "description": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often called the \\\"Red Planet\\\".\"",
-    "basicDetails": {
-      "volume": "1.63118 x 10^11 km^3",
-      "mass": "6.4171 x 10^23 kg"
+    { "quote": "It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth. I didn’t feel like a giant. I felt very, very small.",
+     "author": "Neil Armstrong"
     },
-    "source": "Wikipedia",
-    "wikiLink": "https://en.wikipedia.org/wiki/Mars",
-    "imgSrc": {
-      "img": "https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg",
-      "imgDescription": "Pictured in natural color in 2007"
+    { "quote": "Mars has been flown by, orbited, smacked into, radar examined, and rocketed onto, as well as bounced upon, rolled over, shoveled, drilled into, baked and even blasted. Still to come: Mars being stepped on.",
+     "author": "Buzz Aldrin" 
     },
-    "id": 4,
-    "averageTemperature": "-153 to 20 °C",
-    "dayLength": "24.6 Earth days",
-    "yearLength": "687 Earth days",
-    "moons": "2",
-    "funFacts": {
-      "funFactsOne": "Phobos is predicted to crash into Mars around 50 million years from now. The potato-shaped moon will shatter, which will likely create a ring around the planet.",
-      "funFactsTwo": "The sky on Mars looks reddish during the day and turns blue during sunsets. The total opposite of what our sky looks like here on Earth!"
-    }
-  },
-
-  {
-    "planetOrder": 5,
-    "name": "Jupiter",
-    "description": "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun.",
-    "basicDetails": {
-      "volume": "1.4313 x 10^15 km^3",
-      "mass": "1.8982 x 10^27 kg"
+    { "quote": "When I first looked back at the Earth, standing on the Moon, I cried.",
+     "author": "Alan Shepherd"
     },
-    "source": "Wikipedia",
-    "wikiLink": "https://en.wikipedia.org/wiki/Jupiter",
-    "imgSrc": {
-      "img": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
-      "imgDescription": "Full disk view in natural colour, taken by the Hubble Space Telescope in April 2014"
+    { "quote": "The dinosaurs became extinct because they didn’t have a space program.",
+     "author": "Larry Niven"
     },
-    "id": 5,
-    "averageTemperature": "-108 °C",
-    "dayLength": "9.93 Earth hours",
-    "yearLength": "11.86 Earth years",
-    "moons": "79",
-    "funFacts": {
-      "funFactsOne": "The Great Red Spot is a very large storm that could fit two to three Earths. It was first observed in 1665 by astronomer Giovanni Cassini. Though it might disappear in the next hundred years, a new one will likely replace it.",
-      "funFactsTwo": "Auroras on Jupiter are the brightest in the solar system. They are much more intense than the light shows we have on Earth. Other than solar storms, auroras on Jupiter are also caused by its moon Io."
-    }
-  },
-
-  {
-    "planetOrder": 6,
-    "name": "Saturn",
-    "description": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It has only one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive.",
-    "basicDetails": {
-      "volume": "8.2713 x 10^14 km^3",
-      "mass": "8.2713 x 10^14 km^3"
+    { "quote": "The Earth was absolutely round. I believe I never knew what the word round meant until I saw Earth from space.",
+     "author": "Alexi Leonov"
     },
-    "source": "Wikipedia",
-    "wikiLink": "https://en.wikipedia.org/wiki/Saturn",
-    "imgSrc": {
-      "img": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg",
-      "imgDescription": "Pictured in natural color approaching equinox, photographed by Cassini in July 2008; the dot in the bottom left corner is Titan."
+    { "quote": "The scenery was very beautiful. But I did not see The Great Wall.",
+     "author": "Yang Liwei"
     },
-    "id": 6,
-    "averageTemperature": "-138 °C",
-    "dayLength": "10.7 Earth hours",
-    "yearLength": "29 Earth years",
-    "moons": "82",
-    "funFacts": {
-      "funFactsOne": "Much of what we know now about the Saturni was because of the Cassini mission. In its grand finale in 2017, the spacecraft deliberately crashed into Saturn. It was done to make sure that the potentially habitable moons are unharmed.",
-      "funFactsTwo": "Aside from the main rings around the planet, the Saturnian system has another set of rings. In 2009, a sparse but very large ring was discovered around the irregular moon, Phoebe. It is said to be much larger than Saturn and its main rings!"
-    }
-  },
-
-  {
-    "planetOrder": 7,
-    "name": "Uranus",
-    "description": "Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus, who, according to Greek mythology, was the great-grandfather of Ares, grandfather of Zeus and father of Cronus. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.",
-    "basicDetails": {
-      "volume": "6.833 x 1013 km^3",
-      "mass": "8.681 × 10^25 kg"
+    { "quote": "I absolutely couldn’t identify with the people who were astronauts. I thought they were movie stars.",
+     "author": "David M. Brown"
     },
-    "source": "Wikipedia",
-    "wikiLink": "https://en.wikipedia.org/wiki/Uranus",
-    "imgSrc": {
-      "img": "https://upload.wikimedia.org/wikipedia/commons/4/48/Uranus_as_seen_by_NASA%27s_Voyager_2_%28remastered%29.png",
-      "imgDescription": "Photograph of Uranus in true colour (by Voyager 2 in 1986)"
+    { "quote": "Astronauts are inherently insane. And really noble.",
+     "author": "Andy Weir"
     },
-    "id": 7,
-    "averageTemperature": "-195 °C",
-    "dayLength": "17 Earth hours",
-    "yearLength": "84 Earth years",
-    "moons": "27",
-    "funFacts": {
-      "funFactsOne": "Uranus is colder than Neptune in some areas, particularly in the atmosphere. With a minimum temperature of -224°C (-321°F), it has the coldest planetary atmosphere in the solar system.",
-      "funFactsTwo": "The moons of Uranus are named after literary characters. Specifically, they are inspired by the works of William Shakespeare and Alexander Pope. Its largest moon, Titania, got its name from Shakespeare’s A Midsummer Night’s Dream."
-    }
-  },
-
-  {
-    "planetOrder": 8,
-    "name": "Neptune",
-    "description": "Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, and slightly more massive than its near-twin Uranus.",
-    "basicDetails": {
-      "volume": "6.253 x 1013 km^3",
-      "mass": "1.02413 x 1026 kg"
+    { "quote": "I remember growing up thinking that astronauts and their job was the coolest thing you could possibly do.",
+     "author": "David M."
     },
-    "source": "Wikipedia",
-    "wikiLink": "https://en.wikipedia.org/wiki/Neptune",
-    "imgSrc": {
-      "img": "https://upload.wikimedia.org/wikipedia/commons/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg",
-      "imgDescription": "Photograph taken by NASA's Voyager 2 in 1989"
+    { "quote": "Perhaps, as some wit remarked, the best proof that there is Intelligent Life in Outer Space is the fact it hasn’t come here. Well, it can’t hide forever – one day we will overhear it.",
+     "author": "Arthur C. Clarke"
     },
-    "id": 8,
-    "averageTemperature": "-201 °C",
-    "dayLength": "16 Earth hours",
-    "yearLength": "165 Earth years",
-    "moons": "14",
-    "funFacts": {
-      "funFactsOne": "Neptune follows a very elongated orbit. It is so elongated that sometimes it becomes farther than Pluto.",
-      "funFactsTwo": "Neptune’s tilt on its axis of rotation is 28 degrees, which is closely similar to the Earth’s. This will give the planet a change in seasons like us. But since a year on Neptune is 165 Earth years long, it will take about 40 years for the seasons to change!"
-    }
-  }
-]
+    { "quote": "After one look at this planet any visitor from outer space would say ‘I want to see the manager.'",
+     "author": "William S. Burroughs"
+    },
+    { "quote": "I would like to die on Mars. Just not on impact.",
+     "author": "Elon Musk" 
+    },
+    { "quote": "If you are in a spaceship that is traveling at the speed of light, and you turn on the headlights, does anything happen?",
+     "author": "Steven Wright" 
+    },
+    { "quote": "The Earth is the cradle of humanity, but mankind cannot stay in the cradle forever.",
+     "author": "Konstantin Tsiolkovsky"
+    },
+    { "quote": "I keep pressing the space bar, but I’m still on Earth.",
+     "author": "Unknown"
+    },
+    { "quote": "I’m a huge fan of space. Both outer and personal.",
+     "author": "Unknown" 
+    },
+    { "quote": "Once you can accept the universe as matter expanding into nothing that is something, wearing stripes with plaid comes easy.",
+     "author": "Albert Einstein" 
+    },
+    { "quote": "Let’s face it, space is a risky business. I always considered every launch a barely controlled explosion.",
+     "author": "Aaron Cohen" 
+    },
+    { "quote": "Don’t tell me the sky’s the limit when there are footprints on the moon.",
+     "author": "Paul Brandt" 
+    },
+    { "quote": "Space is big. You just won’t believe how vastly, hugely, mind-bogglingly big it is. I mean, you may think it’s a long way down the road to the drug store, but that’s just peanuts to space.",
+     "author": "Douglas Adams"
+     },
+     { "quote": "Perhaps when distant people on other planets pick up some wavelength of ours all they hear is a continuous scream.",
+      "author": "Iris Murdoch"
+    },
+    { "quote": "On Earth, men are seen as superior because of their physical strength, but it means nothing in space, where there is no gravity.",
+     "author": "Yi So-Yeon"
+    },
+    { "quote": "It’s a very sobering feeling to be up in space and realize that one’s safety factor was determined by the lowest bidder on a government contract.",
+      "author": "Alan Shepard"
+    },
+    { "quote": "The Universe is under no obligation to make sense to you.",
+     "author": "Neil deGrasse Tyson" 
+    },
+    { "quote": "Stars, everywhere. So many stars that I could not for the life me understand how the sky could contain them all yet be so black.",
+     "author": "Peter Watts" 
+    }, 
+    { "quote": "I was afraid that science-fiction buffs and everybody would say things like, ‘You know, there’s no sound in outer space.'",
+     "author": "George Lucas" 
+    }, 
+    { "quote": "The universe is a pretty big place. If it’s just us, seems like an awful waste of space.",
+     "author": "Carl Sagan" }  
+  ]
 }
