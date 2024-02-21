@@ -44,7 +44,10 @@
       "dayLength": "243 Earth days",
       "yearLength": "225 Earth days",
       "moons": "0",
-      "usersFunFacts": [],
+      "usersFunFacts": [
+        "FUN!!!!",
+        "FUN SQUARED!!!"
+      ],
       "funFacts": {
         "funFactsOne": "Among all planets, Venus is the only one named after a female god. Its surface features are also named after women, both real and mythical.",
         "funFactsTwo": "Venus rotates on its axis very slowly. It is so slow that a day that there is longer than a year!"
@@ -220,6 +223,27 @@
         "volume": "(7.057±0.004)×109 km3"
       },
       "id": 9
+    },
+    {
+      "name": "Europa",
+      "description": "Europa",
+      "wikiLink": "https://pt.wikipedia.org/wiki/Europa_(sat%C3%A9lite)",
+      "imgSrc": {
+        "img": "https://i.ibb.co/S6rqhpr/Pluto-in-True-Color-High-Res.png"
+      },
+      "moons": 0,
+      "funFacts": {
+        "funFactsOne": "dd",
+        "funFactsTwo": "sss"
+      },
+      "dayLength": "",
+      "yearLength": "",
+      "averageTemperature": "",
+      "basicDetails": {
+        "mass": "",
+        "volume": ""
+      },
+      "id": 10
     }
   ],
   "space-quotes": [
