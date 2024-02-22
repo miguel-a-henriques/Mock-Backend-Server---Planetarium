@@ -223,27 +223,6 @@
         "volume": "(7.057±0.004)×109 km3"
       },
       "id": 9
-    },
-    {
-      "name": "Europa",
-      "description": "Europa",
-      "wikiLink": "https://pt.wikipedia.org/wiki/Europa_(sat%C3%A9lite)",
-      "imgSrc": {
-        "img": "https://i.ibb.co/S6rqhpr/Pluto-in-True-Color-High-Res.png"
-      },
-      "moons": 0,
-      "funFacts": {
-        "funFactsOne": "dd",
-        "funFactsTwo": "sss"
-      },
-      "dayLength": "",
-      "yearLength": "",
-      "averageTemperature": "",
-      "basicDetails": {
-        "mass": "",
-        "volume": ""
-      },
-      "id": 10
     }
   ],
   "space-quotes": [
